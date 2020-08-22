@@ -9,22 +9,22 @@ variable "resource_group_name" {
 # Added for deployment
 variable "subscription_id" {
   type        = string
-  default = "6a043753-964a-4d26-afb7-4de1308e36eb"
+  default = "43e8dd71-8930-40b8-ba30-2c938d3b8b61"
   description = "Subscription ID for Azure"
 }
 variable "client_id" {
   type        = string
-  default = "20e1ace8-c7f4-4025-859a-51164541ceeb"
+  default = "aca64a13-a4ba-4ce8-95a8-236f33452d5d"
   description = "Client ID for Azure"
 }
 variable "client_secret" {
   type        = string
-  default = ".GWS.aN~SIpSZ~GNz-r5D4Ubtai74v.4Y4"
+  default = "CJiZY~.Z~jX2s4y6w5jm-Xd85JJy~1r2HN"
   description = "Client Secret for Azure"
 }
 variable "tenant_id" {
   type        = string
-  default = "07e16972-e824-4eb5-8d43-c9985ace5c82"
+  default = "cf3e3733-9241-4400-a138-920dbe806ec0"
   description = "Tenent ID for Azure"
 }
 variable "vnet_name" {
